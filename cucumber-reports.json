@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T07:03:14.003Z",
+        "line": 3,
+        "name": "Validating valid credentials",
+        "description": "",
+        "id": "login;validating-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30655566500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I Enter the Login URL",
+            "match": {
+              "location": "Login.i_Enter_the_Login_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3745826100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Enter the credentials",
+            "match": {
+              "location": "Login.i_Enter_the_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "JayTej1",
+                  "abc123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Home page is displayed for me",
+            "match": {
+              "location": "Login.home_page_is_displayed_for_me()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:p2/Login.feature",
+    "tags": []
+  }
+]
